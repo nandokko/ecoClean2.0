@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>EcoCleanv2.0</title>
+    <title>Visualizar Nota</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -62,10 +62,31 @@
                     <div class="col-lg-12">
 						<div class="row">
 							<div class="col-lg-12">
-								<h1 class="page-header">EcoClean</h1>
+								<h1 class="page-header">Visualizar Nota</h1>
 							</div>
 							<!-- /.col-lg-12 -->
-							Content Here>>>
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											Nota
+										</div>
+										<div class="panel-body">
+											<div class="col-lg-6">
+                                    <form role="form">
+                                        <div class="form-group">
+                                            <label>Nombre</label>
+                                            <input class="form-control" placeholder="Entre nombre">
+                                        </div>                                    
+                                        <button type="submit" class="btn btn-default">Aceptar</button>
+                                        <button type="reset" class="btn btn-default">Limpiar</button>
+                                    </form>
+                                </div>
+										</div>
+									</div>
+								</div>
+							</div>
+						    <!-- /.row -->
                     </div>
                     <!-- /.col-lg-12 -->
                 </div>
